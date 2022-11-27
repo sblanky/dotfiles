@@ -1611,3 +1611,9 @@ git remote add origin https://github.com/sblanky/dotfiles
 git remote -v
 git push origin main
 reboot
+vim .bash_aliases 
+cd dotfiles
+ls
+git status
+vim 
+vim ~/.bash_aliases 
