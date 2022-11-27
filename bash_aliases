@@ -22,7 +22,7 @@ alias l='ls -CF'
 alias update='sudo dnf upgrade -y && sudo dnf autoremove -y'
 
 #OneDrive sync
-alias onedrive_sync='rclone copy ~ OneDrive:rocky_lossless && rclone sync ~ OneDrive:rocky_exact'
+alias onedrive_sync='rclone copy --copy-links -P ~ OneDrive:rocky_lossless && rclone sync --copy-links -P ~ OneDrive:rocky_exact'
 
 
 # Add an "alert" alias for long running commands.  Use like so:
