@@ -19,6 +19,9 @@ Plugin 'vim-scripts/indentpython.vim' " Hopefully gets python indents right
 " ----- LaTeX -----------------------------------
 Plugin 'lervag/vimtex'
 
+" ----- pathogen --------------------------------
+"
+
 " ---- Make Vim look good -----------------------
 
 Plugin 'altercation/vim-colors-solarized'
@@ -55,6 +58,8 @@ Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'godlygeek/tabular'
 
 call vundle#end()
+
+execute pathogen#infect()
 
 filetype plugin indent on
 
